@@ -1,0 +1,8 @@
+com\devnics\DiscordLink\listener\MessageListener.class
+com\devnics\DiscordLink\listener\PlayerListeners.class
+com\devnics\DiscordLink\listener\SlashCommandListener.class
+com\devnics\DiscordLink\DPlayer.class
+com\devnics\DiscordLink\papi\DiscordLinkExpansion.class
+com\devnics\DiscordLink\listener\StatusUpdater.class
+com\devnics\DiscordLink\command\CommandLink.class
+com\devnics\DiscordLink\DiscordLinkPlugin.class

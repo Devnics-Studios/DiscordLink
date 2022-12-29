@@ -1,0 +1,11 @@
+name: DiscordLink
+version: '1.0-SNAPSHOT'
+main: com.devnics.DiscordLink.DiscordLinkPlugin
+api-version: 1.19
+depend:
+  - Vault
+  - PlaceholderAPI
+commands:
+  link:
+    description: Links your account
+    usage: /link
