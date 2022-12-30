@@ -62,7 +62,8 @@ public final class DiscordLinkPlugin extends JavaPlugin {
         this.bot.addEventListener(new MessageListener(this));
         this.bot.addEventListener(new SlashCommandListener(this));
         this.bot.updateCommands().addCommands(
-                Commands.slash("balance", "Check your points")
+                Commands.slash("balance", "Check your points"),
+                Commands.slash("shop", "Purchase items using your points")
         ).queue();
 
         new DiscordLinkExpansion(this).register();
